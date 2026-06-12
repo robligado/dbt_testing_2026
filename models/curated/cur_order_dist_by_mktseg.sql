@@ -19,4 +19,4 @@ aggr AS (
     GROUP BY joindata.c_mktsegment
 )
 
-SELECT * FROM aggr;
+SELECT * FROM aggr
