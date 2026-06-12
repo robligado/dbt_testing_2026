@@ -6,4 +6,4 @@ WITH custdata AS (
 SELECT
     c_custkey,
     c_mktsegment
-FROM custdata;
+FROM custdata
