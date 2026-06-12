@@ -2,10 +2,12 @@
 Welcome to your new dbt project!
 
 ### Using the starter project
+### having to test this
 
 Try running the following commands:
 - dbt run
 - dbt test
+
 
 
 ### Resources:
