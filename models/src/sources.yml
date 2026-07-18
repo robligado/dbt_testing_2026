@@ -35,3 +35,6 @@ sources:
 
           - name: O_ORDERSTATUS
             description: "Status of the order."
+
+      - name: Addresses
+        description: "Address table from the TPCH sample dataset."
