@@ -7,16 +7,7 @@ sources:
     schema: TPCH_SF1
 
     tables:
-      - name: CUSTOMER
-        description: "Customer table from the TPCH sample dataset."
-
-        columns:
-          - name: C_CUSTKEY
-            description: "Unique customer identifier."
-
-          - name: C_MKTSEGMENT
-            description: "Customer market segment."
-    
+   
       - name: ORDERS
         description: "Orders table from the TPCH sample dataset."
 
