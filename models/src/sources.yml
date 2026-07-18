@@ -1,0 +1,37 @@
+version: 2
+
+sources:
+  - name: tpch_source
+    description: "Snowflake TPCH sample data source."
+    database: SNOWFLAKE_SAMPLE_DATA
+    schema: TPCH_SF1
+
+    tables:
+      - name: CUSTOMER
+        description: "Customer table from the TPCH sample dataset."
+
+        columns:
+          - name: C_CUSTKEY
+            description: "Unique customer identifier."
+
+          - name: C_MKTSEGMENT
+            description: "Customer market segment."
+    
+      - name: ORDERS
+        description: "Orders table from the TPCH sample dataset."
+
+        columns:
+          - name: O_CUSTKEY
+            description: "Customer identifier."
+
+          - name: O_ORDERKEY
+            description: "Unique order identifier."
+
+          - name: O_ORDERDATE
+            description: "Date the order was placed."
+
+          - name: O_TOTALPRICE
+            description: "Total price of the order."
+
+          - name: O_ORDERSTATUS
+            description: "Status of the order."

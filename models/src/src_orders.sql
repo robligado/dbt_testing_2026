@@ -1,5 +1,6 @@
 WITH orderdata AS (
-    SELECT * FROM snowflake_sample_data.tpch_sf1.orders
+    SELECT * 
+    FROM {{ source('tpch_source', 'ORDERS') }}
 )
 
 SELECT
@@ -10,3 +11,4 @@ SELECT
     o_orderstatus
 FROM
     orderdata
+;
