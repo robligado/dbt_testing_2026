@@ -11,4 +11,3 @@ SELECT
     o_orderstatus
 FROM
     orderdata
-;
