@@ -1,3 +1,4 @@
+--- testing dbt topic
 WITH custdata AS (
     SELECT *
     FROM {{ source('tpch_source', 'CUSTOMER') }}
